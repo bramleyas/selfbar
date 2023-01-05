@@ -1,0 +1,62 @@
+@font-face {
+  src: url('/name.ttf');
+  font-family: 'name';
+}
+@font-face {
+  src: url('/term.ttf');
+  font-family: 'term';
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+.selfbar {
+  border: none;
+  background-color: #000814;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+}
+.selfbarTerms {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.selfbarEmpty {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 4%;
+}
+.selfbarName {
+  border: 0;
+  padding: 4px;
+  margin: 0;
+  font-family: 'name';
+  width: 10%;
+}
+.selfbarTerm {
+  border: 0;
+  padding: 4px;
+  margin: 0;
+  font-family: 'term';
+  width: 4%;
+}
+.selfbarSong {
+  width: 10%;
+  font-family: 'term';
+}
+a, a:visited {
+  color: #ffffff;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+  padding-right: 4px;
+}
